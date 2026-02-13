@@ -27,11 +27,13 @@ jobs:
     - name: Run Playwright tests
       run: npx playwright test
 
-    - name: Install Allure CLI
-      run: npm install -g allure-commandline
+    - name: Debug Allure Results
+      if: always()
+      run: ls -R allure-results || echo "No results folder"
 
     - name: Generate Allure Report
-      run: allure generate allure-results --clean -o allure-report
+      if: always()
+      run: npx allure generate allure-results --clean -o allure-report
 
     - name: Upload Allure Report Artifact
       uses: actions/upload-artifact@v4
