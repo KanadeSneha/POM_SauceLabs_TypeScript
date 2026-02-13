@@ -1,2 +1,5 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","3145","verify login","chromium","2026-02-13","passed","2026-02-13","","login.spec.ts","",""
+"This is a dummy test to verify CI reporting","40","dummy test","chromium","2026-02-13","passed","2026-02-13","","demo.spec.ts","",""
+"","5376","get started link","chromium","2026-02-13","passed","2026-02-13","","example.spec.ts","",""
+"","5681","has title","chromium","2026-02-13","passed","2026-02-13","","example.spec.ts","",""
+"","3853","verify login","chromium","2026-02-13","passed","2026-02-13","","login.spec.ts","",""
