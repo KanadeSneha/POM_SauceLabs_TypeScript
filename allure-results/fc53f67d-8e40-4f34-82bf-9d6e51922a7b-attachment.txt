@@ -1,0 +1,4 @@
+filled input with value: standard_user
+filled input with value: secret_sauce
+clicked on element: getByRole('button', { name: 'Login' })
+asserted that element has text: Products
